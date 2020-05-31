@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd(pattern="mirafilzah ?(.*)"))
+@borg.on(admin_cmd(pattern="mf ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
