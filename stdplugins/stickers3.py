@@ -1,6 +1,6 @@
 """Make / Download Telegram Sticker Packs without installing Third Party applications
 Available Commands:
-.mirafilzah [Optional Emoji]
+.mf [Optional Emoji]
 .packinfo
 .getsticker"""
 from telethon import events
